@@ -1,0 +1,11 @@
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*To remove scrollbar*/ 
+/*The below is a css declaration*/
+::-webkit-scrollbar { /*Element*/
+  display/*Property*/: none /*value*/;
+}
